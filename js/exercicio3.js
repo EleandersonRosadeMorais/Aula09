@@ -5,9 +5,9 @@ const euro = 5.7
 // Quantidade de dinheiro em reais a ser convertida
 let reais = 1500
 // Valor convertido em Dolár
-let valorDolar = dolar * reais
+let valorDolar = reais / dolar
 // Valor convertido em Euro
-let valorEuro = euro * reais
+let valorEuro = reais / euro
 // Função para converter número em Real
 function converterReais() {
     return reais.toLocaleString('pt-BR', {
